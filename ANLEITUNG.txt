@@ -1,0 +1,24 @@
+GEMEINSAMER COUNTDOWN – GITHUB PAGES
+
+1. Ein neues ÖFFENTLICHES GitHub-Repository anlegen, z. B. wiedersehen-countdown.
+2. index.html, countdown.json und .nojekyll in das Repository hochladen.
+3. Settings -> Pages -> Build and deployment -> Deploy from a branch.
+   Branch: main, Folder: /(root), dann Save.
+4. Dein Link lautet danach:
+   https://DEIN-GITHUB-NAME.github.io/wiedersehen-countdown/
+
+UHRZEIT SPÄTER ÄNDERN
+- Auf GitHub countdown.json öffnen -> Stiftsymbol (Edit).
+- Den Wert von endsAt auf die neue Uhrzeit setzen, z. B.
+  2026-11-22T19:30:00+01:00
+- Commit changes wählen.
+- Der Link bleibt gleich. Nach Veröffentlichung übernimmt die Seite die neue Zeit
+  bei erneutem Öffnen oder spätestens beim nächsten Aktualisieren.
+
+ACHTUNG
+- Das Repo ist öffentlich; auch das gemeinsame Foto ist öffentlich sichtbar.
+- Nur Personen mit Schreibrechten am Repository können den Countdown ändern.
+- GitHub Pages bietet ohne Backend kein eigenes geschütztes Einstellungsformular.
+- Der Homebildschirm-Link auf dem iPhone zeigt den Countdown beim Öffnen.
+- Beim späteren Umzug zu Hatchable ändert sich der Link, sofern keine eigene Domain
+  verwendet wird. Eine eigene Domain kann das zukünftig vermeiden.
